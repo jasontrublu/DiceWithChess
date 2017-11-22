@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice with Chess</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<table id="board" border="1">
+    <tr>
+        <td class="field" id="field11">
+            5
+        </td>
+        <td class="field" id="field12">
+            1
+        </td>
+        <td class="field" id="field13">
+            2
+        </td>
+        <td class="field" id="field14">
+            6
+        </td>
+        <td class="field" id="field15">
+            K
+        </td>
+        <td class="field" id="field16">
+            6
+        </td>
+        <td class="field" id="field17">
+            2
+        </td>
+        <td class="field" id="field18">
+            1
+        </td>
+        <td class="field" id="field19">
+            5
+        </td>
+    </tr>
+    <tr>
+        <td class="field" id="field21">
+
+        </td>
+        <td class="field" id="field22">
+
+        </td>
+        <td class="field" id="field23">
+
+        </td>
+        <td class="field" id="field24">
+
+        </td>
+        <td class="field" id="field25">
+
+        </td>
+        <td class="field" id="field26">
+
+        </td>
+        <td class="field" id="field27">
+
+        </td>
+        <td class="field" id="field28">
+
+        </td>
+        <td class="field" id="field29">
+
+        </td>
+    </tr>
+    <tr>
+        <td class="field" id="field31">
+
+        </td>
+        <td class="field" id="field32">
+
+        </td>
+        <td class="field" id="field33">
+
+        </td>
+        <td class="field" id="field34">
+
+        </td>
+        <td class="field" id="field35">
+
+        </td>
+        <td class="field" id="field36">
+
+        </td>
+        <td class="field" id="field37">
+
+        </td>
+        <td class="field" id="field38">
+
+        </td>
+        <td class="field" id="field39">
+
+        </td>
+    </tr>
+    <tr>
+        <td class="field" id="field41">
+
+        </td>
+        <td class="field" id="field42">
+
+        </td>
+        <td class="field" id="field43">
+
+        </td>
+        <td class="field" id="field44">
+
+        </td>
+        <td class="field" id="field45">
+
+        </td>
+        <td class="field" id="field46">
+
+        </td>
+        <td class="field" id="field47">
+
+        </td>
+        <td class="field" id="field48">
+
+        </td>
+        <td class="field" id="field49">
+
+        </td>
+    </tr>
+    <tr>
+        <td class="field" id="field51">
+
+        </td>
+        <td class="field" id="field52">
+
+        </td>
+        <td class="field" id="field53">
+
+        </td>
+        <td class="field" id="field54">
+
+        </td>
+        <td class="field" id="field55">
+
+        </td>
+        <td class="field" id="field56">
+
+        </td>
+        <td class="field" id="field57">
+
+        </td>
+        <td class="field" id="field58">
+
+        </td>
+        <td class="field" id="field59">
+
+        </td>
+    </tr>
+    <tr>
+        <td class="field" id="field61">
+
+        </td>
+        <td class="field" id="field62">
+
+        </td>
+        <td class="field" id="field63">
+
+        </td>
+        <td class="field" id="field64">
+
+        </td>
+        <td class="field" id="field65">
+
+        </td>
+        <td class="field" id="field66">
+
+        </td>
+        <td class="field" id="field67">
+
+        </td>
+        <td class="field" id="field68">
+
+        </td>
+        <td class="field" id="field69">
+
+        </td>
+    </tr>
+    <tr>
+        <td class="field" id="field71">
+
+        </td>
+        <td class="field" id="field72">
+
+        </td>
+        <td class="field" id="field73">
+
+        </td>
+        <td class="field" id="field74">
+
+        </td>
+        <td class="field" id="field75">
+
+        </td>
+        <td class="field" id="field76">
+
+        </td>
+        <td class="field" id="field77">
+
+        </td>
+        <td class="field" id="field78">
+
+        </td>
+        <td class="field" id="field79">
+
+        </td>
+    </tr>
+    <tr>
+        <td class="field" id="field81">
+
+        </td>
+        <td class="field" id="field82">
+
+        </td>
+        <td class="field" id="field83">
+
+        </td>
+        <td class="field" id="field84">
+
+        </td>
+        <td class="field" id="field85">
+
+        </td>
+        <td class="field" id="field86">
+
+        </td>
+        <td class="field" id="field87">
+
+        </td>
+        <td class="field" id="field88">
+
+        </td>
+        <td class="field" id="field89">
+
+        </td>
+    </tr>
+    <tr>
+        <td class="field" id="field91">
+            5
+        </td>
+        <td class="field" id="field92">
+            1
+        </td>
+        <td class="field" id="field93">
+            2
+        </td>
+        <td class="field" id="field94">
+            6
+        </td>
+        <td class="field" id="field95">
+            K
+        </td>
+        <td class="field" id="field96">
+            6
+        </td>
+        <td class="field" id="field97">
+            2
+        </td>
+        <td class="field" id="field98">
+            1
+        </td>
+        <td class="field" id="field99">
+            5
+        </td>
+    </tr>
+</table>
+
+
+<script type="text/javascript" src="lib/kotlin.js"></script>
+<script type="text/javascript" src="DiceWithChess.js"></script>
+</body>
+</html>
